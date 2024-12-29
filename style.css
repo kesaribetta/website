@@ -1,7 +1,22 @@
 /* stylelint-disable selector-list-comma-newline-after */
 body, a {
-  background-color: #6f42c1;
-  color: #fff;
+  color: #333;
+  text-decoration: none;
+}
+
+.bg-dark, .bg-dark a {
+  color: #FFF !important;
+  background-color: #444 !important;
+}
+
+.bg-light {
+  color: #333;
+  background-color: #EFEFEF !important;
+}
+
+.container {
+    width: 100%;
+    padding: 10px 60px;
 }
 
 .blog-header {
